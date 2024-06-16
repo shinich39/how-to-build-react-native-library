@@ -35,6 +35,7 @@ npm pack
 4.
 
 ```console
+npx pod-install
 npx expo run:ios
 npx expo run:android
 ```
