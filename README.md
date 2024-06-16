@@ -15,6 +15,17 @@ npx expo install expo-dev-client
 npx create-react-native-library@latest my-module
 ```
 
+3. Add ios external module
+
+```
+s.source_files = "ios/**/*.{h,m,mm,swift}"
+
+# Add ios modules
+s.dependency "SSZipArchive"
+...
+
+```
+
 3. Packaging module
 
 ```console
@@ -27,3 +38,4 @@ npm pack
 npx expo run:ios
 npx expo run:android
 ```
+
